@@ -2,10 +2,10 @@ services:
   dbMysql:
     image: mysql:8.0
     ports:
-      - "3306:3306"
+      - "3307:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: toDoData
+      MYSQL_DATABASE: toDoDatabase
     volumes:
       - todo-data:/var/lib/mysql
 
