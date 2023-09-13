@@ -1,7 +1,7 @@
 <?php 
 require "../autoload.php";
+USE classes\DAO;
 
-use DAO\DAO;
 
 $credentials = [$_POST['name'], $_POST['email'], $_POST['pass']];
 $verified = checkEmpty($credentials);

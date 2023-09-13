@@ -1,5 +1,5 @@
 <?php 
-namespace DAO;
+namespace classes;
 
 class DAO {
 

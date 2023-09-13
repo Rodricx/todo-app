@@ -2,7 +2,7 @@
 require "../autoload.php";
 
 
-USE DAO\DAO;
+USE classes\DAO;
 
 if(isset($_POST['checar'])){
     $noEmpty = array_keys($_POST['checar']);

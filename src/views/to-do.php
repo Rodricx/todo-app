@@ -8,7 +8,7 @@ $orderBy = isset($_SESSION['orderBy']) ? $_SESSION['orderBy'] : $idUser;
 
 
 
- USE DAO\DAO;
+ USE classes\DAO;
 
  $ToDo = new DAO();
  $result = $ToDo->selectAll("tarefa", "WHERE idUsuario = $orderBy",$conn);

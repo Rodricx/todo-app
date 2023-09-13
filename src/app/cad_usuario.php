@@ -1,7 +1,7 @@
 <?php 
 require "../autoload.php";
 
-USE DAO\DAO;
+USE classes\DAO;
 
 
 $user = [$_POST['user'], $_POST['email'], $_POST['pass']];
