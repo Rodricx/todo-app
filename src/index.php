@@ -1,6 +1,7 @@
 <?php 
 session_start();
 require "database/createDatabase.php";
+require "vendor/autoload.php";
 
 ?>
 
