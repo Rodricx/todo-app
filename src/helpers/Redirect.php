@@ -1,9 +1,9 @@
 <?php 
-namespace helpers;
+namespace Helpers;
 
 class Redirect
 {
-    public function redirect($path)
+    public static function redirect($path)
     {
         header("Location: $path");
     }

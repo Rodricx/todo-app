@@ -1,5 +1,5 @@
 <?php 
-session_start();
+// session_start();
 
 function checkEmpty($fields){
     foreach($fields as $field){
