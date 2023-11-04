@@ -1,6 +1,7 @@
 {
     "require": {
-        "twig/twig": "^3.7"
+        "twig/twig": "^3.7",
+        "robmorgan/phinx": "^0.15.2"
     },
 
     "autoload":{
@@ -9,7 +10,7 @@
             "Helpers\\"  : "helpers",
             "Database\\" : "database",
             "Testss\\"   : "tests",
-            "Controller" : "controller"
+            "Controller\\" : "controller"
         }
     },
     "require-dev": {
